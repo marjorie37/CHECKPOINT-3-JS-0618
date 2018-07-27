@@ -1,0 +1,83 @@
+# Checkpoint 3 - Algo/ReactJS
+
+- Ce Checkpoint 3 comporte 2 exercices, vous avez 4 heures.
+- Prenez le temps de bien faire, l'objectif n'est pas de tout finir...
+- Lisez les messages d'erreurs, ne restez pas blocké non plus 1h sur un même problème.
+
+## Algorithme
+
+Define toAlternatingCase() function such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase BUT remove underscore
+
+For example:
+
+```
+    toAlternatingCase("hello world") === "HELLO WORLD"
+
+    toAlternatingCase("HE_LLO WO_RLD") === "hello world"
+
+    toAlternatingCase("hello WORLD") === "HELLO world"
+
+    toAlternatingCase("HeLLo WoRLD") === "hEllO wOrld"
+
+    toAlternatingCase("12345") === null
+```
+
+## ReactJS
+
+Exercice sous ReactJS des capitales européennes. Attention: il est **facultatif d'utiliser ReactStrap**
+
+Voici l'ennoncé:
+
+1.  A partir des données fournies dans le fichier "datas.json" (pas besoin de Axios),
+    lister les capitales (avec leur détail) dans une liste à puces ou dans des Cards de Reactstrap
+    [https://reactstrap.github.io/components/card/](https://reactstrap.github.io/components/card/)
+
+2.  Créer un formulaire afin d'ajouter une capitale en dessous de la liste.
+
+Voici les champs du formulaire
+
+- Title
+
+- Description (textarea)
+
+- Longitude
+
+- Latitude
+
+- Population
+
+- Img (url)
+
+- Disponible (checkbox)
+
+Si vous utiliser ReactStrap:
+[https://reactstrap.github.io/components/form/](https://reactstrap.github.io/components/form/)
+
+3.  Ajouter un bouton à chaque capitale pour pouvoir supprimer une capitale de la liste
+
+## Magasins à Bonus (Si vous avez le temps !)
+
+- Filtrer la liste avec une checkbox pour afficher seulement les capitales disponibles
+
+* Filtrer la liste par population avec un champs de saisie (ou Slider)
+
+* Limiter l'affichage de la liste par 2,4,8, plus de 10 avec des boutons radios
+
+* Trier avec une liste déroulante par "Ordre Alphabétique" ou "Ordre de population" la liste des capitales
+
+- Afficher la liste des capitales avec Google Map et des Markers localisées sur la carte.
+  Vous aurez besoin du composant suivant:
+
+_ReactJS GMaps_
+Liens vers la documentation:
+[https://github.com/tomchentw/react-google-maps](https://github.com/tomchentw/react-google-maps)
+
+_Quelques Examples de MAP:_
+
+[https://tomchentw.github.io/react-google-maps/#infowindow](https://tomchentw.github.io/react-google-maps/#infowindow)
+
+[https://tomchentw.github.io/react-google-maps/#markerclusterer](https://tomchentw.github.io/react-google-maps/#markerclusterer)
+
+# Bon courage !
+
+![enter image description here](https://media.giphy.com/media/4KFH8kY8SpT40q5igm/giphy.gif)
